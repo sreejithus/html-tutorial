@@ -1,0 +1,73 @@
+
+
+.card{
+        height: 600px;
+        width:370px;
+        border: 2px solid black
+        
+}
+
+
+.card-header{
+     
+     
+     background-color: gray;
+     padding: 10px;
+     
+
+}
+
+
+.card .card-header h1{
+    text-align: center;
+    color: white;
+    font-family: sans-serif;
+}
+
+.card .card-body ul li i{
+    color: red;
+}
+
+.card .card-body h3{
+    text-align: center;
+}
+
+.card .card-body {
+    background-color: white;
+}
+.card .card-body ul li{
+    line-height: 2;
+    margin: 10px;
+}
+
+.card .card-button{
+    display: flex;
+    justify-content: center;
+
+    
+    
+}
+
+.card .card-button button{
+    padding:7px;
+    background-color: red;
+    color: white;
+    font-family: sans-serif;
+    font-size:medium;
+    
+}
+
+.parent{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: rgb(55, 50, 50);
+    padding: 30px;
+  
+}
+
+.card{
+    background-color: white;
+
+}
+

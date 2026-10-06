@@ -1,0 +1,70 @@
+
+body{
+      display: flex;
+  justify-content: center; 
+  align-items: center; 
+  min-height: 100vh;       
+  margin: 0; 
+}
+.parent{
+    height: 500px;
+    width: 900px;
+    background-color: rgb(245, 241, 241);
+    display: flex;
+    
+    align-items: center;
+    margin:auto;
+    
+}
+
+
+
+.parent .left-child img{
+    height: 500px;
+    width:400px
+
+}
+
+
+.parent .right-child{
+     background-color:white;
+     width: 310px;
+     height: 310px;
+     margin: auto;
+     padding: 50px;
+     display: flex;
+     justify-content: center;
+     flex-direction: column;
+     align-items: center;
+   
+
+
+}
+
+.parent .right-child h3{
+    text-align: center;
+    font-family:sans-serif;
+    color: black;
+}
+
+.parent .right-child h1{
+         text-align: center;
+         font-family: sans-serif;
+         font-size: 3rem;  
+        } 
+.parent .right-child p{
+     text-align: justify;
+    font-family: sans-serif;
+    color: rgb(190, 188, 188);
+}
+
+
+.parent .right-child button{
+    background-color: rgba(110, 119, 182,0.8);
+    color: white;
+    padding: 5px;
+    font-family:sans-serif;
+    font-size: 0.9rem; 
+    
+
+}
